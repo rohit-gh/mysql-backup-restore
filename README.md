@@ -1,2 +1,24 @@
-# mysql-backup-restore
-Nodejs Programs for MySQL backup and restore
+## Install dependencies
+
+```
+npm install
+```
+
+## Update database variables
+
+- Open `config/default.json`
+- update to your actual database variables
+
+
+## For Backup
+
+```
+npm run backup
+```
+
+
+## For restore
+
+```
+npm run restore
+```
